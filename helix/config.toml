@@ -1,0 +1,28 @@
+theme = "onelight"
+
+[editor]
+mouse = true
+auto-save = true
+rulers = [80,120]
+cursorline = true
+cursorcolumn = true
+bufferline = "always"
+line-number = "relative"
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = "↪"
+
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 1
+
